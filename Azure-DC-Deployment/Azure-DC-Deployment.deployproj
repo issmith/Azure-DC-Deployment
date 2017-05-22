@@ -31,6 +31,12 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <None Include="DSC\CreateADPDC.ps1" />
+    <None Include="DSC\CreateADPDC.zip" />
+    <None Include="metadata.json" />
+    <None Include="nestedtemplates\vnet-with-dns-server.json" />
+    <None Include="nestedtemplates\vnet.json" />
+    <None Include="README.md" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>

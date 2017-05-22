@@ -1,6 +1,21 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-    }
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "ian"
+    },
+    "adminPassword": {
+      "value": "Vmware1000000"
+    },
+    "domainName": {
+      "value": "mydomain.local"
+    },
+    "dnsPrefix": {
+      "value": "test05756"
+    },
+      "_artifactsLocation": {
+          "value": "C:\\Users\\ian.s.smith\\Documents\\Visual Studio 2015\\Projects\\Azure-DC-Deployment\\Azure-DC-Deployment"
+      }
+  }
 }
